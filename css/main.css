@@ -1,4 +1,101 @@
 /* CSS STRUCTURE TEMPLATE */
+h1 {
+    color:rgb(0, 183, 255);
+}
+.mainimage {
+    /* position: absolute; */
+    width: 1440px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+  }
+
+
+.rectangle1{
+    position: absolute;
+    width: 1440px;
+    height: 68px;
+    left: 0px;
+    top: 24px;
+
+    background: rgba(0, 0, 0, 0.69);
+}
+.logo{
+    position: absolute;
+    width: 465px;
+    height: 86px;
+    left: 20px;
+    top: 15px;
+
+}
+.centerheader {
+
+
+    position: absolute;
+    width: 325px;
+    height: 60px;
+    left: 557px;
+    top: 653px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 60px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.underhead {
+    position: absolute;
+    width: 829px;
+    height: 93px;
+    left: 305px;
+    top: 713px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 79px;
+    line-height: 93px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.elevatorButtom {
+    position: absolute;
+    right: -0.19px;
+    bottom: 0px;
+    width: 65px;
+    height: 64px;
+    left: 687px;
+    top: 828px;
+
+
+
+}
+.active {
+    
+    top: 49px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
 .selector {
     /* POSITIONING */
     position: absolute, relative, fixed, etc;
@@ -24,4 +121,6 @@
     text-align: - - - ;
     /* OTHER */
     cursor: - - - ;
+
+
 }
