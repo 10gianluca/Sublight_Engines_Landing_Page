@@ -3,6 +3,71 @@ h1 {
     color:rgb(255, 255, 255);
 }
 
+#main{
+    position: relative;
+}
+
+
+
+
+
+/* NAVBAR */
+#navbar{
+    position: relative;
+}
+.rectangle1{
+    position: absolute;
+    width: 100%;
+    height: 74px;
+    left: 0px;
+    top: 16%;
+    background: rgba(0, 0, 0, 0.30);
+}
+.logo{
+    position: absolute;
+    width: 465px;
+    height: 86px;
+    left: 20px;
+    top: 15.5%;
+}
+.bg-img {
+    position: relative;
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; 
+}
+.topnav {
+      float: right;
+}
+.topnav a {
+    float: right;
+    color: #ffffff;
+    text-align: right;
+    padding: 55px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* NAVBAR */
+
+
+
+
+
+
+
+
+
+/* backgroundImage */
+#backgroundImage{
+    position: relative;
+}
 .mainimage {
     /* position: absolute; */
     width: 100%;
@@ -11,34 +76,7 @@ h1 {
     top: 0px;
     padding: 0px;
   }
-
-.rectangle1{
-    position: absolute;
-    width: 100%;
-    height: 74px;
-    left: 0px;
-    top: 16%;
-
-    background: rgba(0, 0, 0, 0.30);
-}
-.rectangle2{
-    position: absolute;
-    width: 100%;
-    height: 711px;
-    padding: 0px;
-
-}
-.logo{
-    position: absolute;
-    width: 465px;
-    height: 86px;
-    left: 20px;
-    top: 15.5%;
-
-}
 .centerheader {
-
-
     position: absolute;
     top: 100%;
     left: 50%;
@@ -50,69 +88,41 @@ h1 {
     font-size: 71px;
     line-height: 60px;
 }
-
 .underhead {
     position: absolute;
     top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 79px;
     line-height: 93px;
-
     text-align: center;
 }
-
 .elevatorButton {
     position: absolute;
     top: 130%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* backgroundImage */
 
 
-.bg-img {
+
+
+/* OurServices */
+#OurServices{
     position: relative;
-  }
-  
-  /* Position the navbar container inside the image */
-.container {
+}
+.rectangle2{
     position: absolute;
-    margin: 20px;
-    width: auto;
-    
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px; 
-    /* identical to box height */
+    width: 100%;
+    height: 711px;
+    padding: 0px;
 }
-  
-  /* The navbar */
-.topnav {
-      float: right;
-
-}
-  
-  /* Navbar links */
-.topnav a {
-    float: right;
-    color: #ffffff;
-    text-align: right;
-    padding: 55px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-
 .weHead {
     position: absolute;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -138,7 +148,6 @@ h1 {
     left: 630px;
     top: 1325px;
 }
-
 .seperator {
     position: absolute;
     width: 170px;
@@ -146,14 +155,12 @@ h1 {
     left: 855px;
     top: 1450px;
 }
-
 .toolImage1{
     position: absolute;
     width: 250px;
     height: 250px;
     left: 380px;
     top: 1542px;
-
 }
 .toolImage1text{
     position: absolute;
@@ -161,7 +168,6 @@ h1 {
     height: 250px;
     left: 380px;
     top: 1830px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -169,7 +175,6 @@ h1 {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
-
 }
 .toolImage2{
     position: absolute;
@@ -177,7 +182,6 @@ h1 {
     height: 250px;
     left: 820px;
     top: 1542px;
-
 }
 .toolImage2text{
     position: absolute;
@@ -185,7 +189,6 @@ h1 {
     height: 250px;
     left: 820px;
     top: 1830px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -193,7 +196,6 @@ h1 {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
-
 }
 .toolImage3{
     position: absolute;
@@ -201,7 +203,6 @@ h1 {
     height: 250px;
     left: 1260px;
     top: 1542px;
-
 }
 .toolImage3text{
     position: absolute;
@@ -209,7 +210,6 @@ h1 {
     height: 250px;
     left: 1260px;
     top: 1830px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -217,10 +217,15 @@ h1 {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
-
 }
+/* OurServices */
 
 
+
+
+
+
+/* OurProducts */
 .OurProductsImage{
     position: absolute;
     width: 755px;
@@ -228,14 +233,12 @@ h1 {
     left: 1045px;
     top: 2140px;
 }
-
 .series{
     position: absolute;
     width: 755px;
     height: 511px;
     left: 145px;
     top: 2240px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -243,14 +246,12 @@ h1 {
     line-height: 29px;
     color: #292929;
 }
-
 .perfection{
     position: absolute;
     width: 755px;
     height: 511px;
     left: 145px;
     top: 2270px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -258,14 +259,12 @@ h1 {
     line-height: 42px;
     color: #292929;
 }
-
 .paragraph{
     position: absolute;
     width: 755px;
     height: 511px;
     left: 150px;
     top: 2350px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -273,16 +272,35 @@ h1 {
     line-height: 22px;
     color: #000000;
 }
+/* OurProducts */
 
+
+
+
+
+/* AboutUs */
 .rectangle3{
     position: absolute;
     width: 100%;
     height: 711px;
     left: 0px;
     top: 2844px;
-
 }
-
+.fleet{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 60px;
+}
+.heart{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 60px;
+}
+/* AboutUs */
 
 
 .selector {
