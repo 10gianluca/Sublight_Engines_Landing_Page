@@ -561,6 +561,11 @@ h1 {
         border: 3px solid #292929; 
 
     }
+    #language{
+        position: absolute;
+        left: 43%;
+        top: 44.5%;
+    }
 /* FORM */
 /* CONTACT US */    
 /* INFO */
