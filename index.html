@@ -4,8 +4,8 @@
     <!-- SEO -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta content="width=device-width, initial-scale=1" name="viewport"> -->
     <title></title>
     <meta name="description" content="">
     
@@ -20,25 +20,24 @@
     <div id="main"> 
         <!-- INTO -->
         <div class="Into">
+            <img class="mainimage" src="assets/bkg_1 1.png">    
             <div id="navbar">
-                <img class="rectangle1" src="assets\Rectangle 1.png">
-                <img class="logo" src="assets\logo_sublight.svg"> 
-                <div class="bg-img">
-                    <div class="container">
-                    <div class="topnav">
-                        <a href="#home">OUR SERVICES</a>
-                        <a href="#news">OUR PRODUCTS</a>
-                        <a href="#contact">ABOUT US</a>
-                        <a href="#about">CONTACT US</a>
+                    <img class="rectangle1" src="assets\Rectangle 1.png">
+                    <img class="logo" src="assets\logo_sublight.svg"> 
+                    <div class="bg-img">
+                        <div class="container">
+                        <div class="topnav">
+                            <a href="#ContactUs">CONTACT  US</a>
+                            <a href="#AboutUs">ABOUT  US</a>
+                            <a href="#OurProducts">OUR PRODUCTS</a>
+                            <a href="#OurServices">OUR SERVICES</a>
+                        </div>
+                        </div>
                     </div>
-                    </div>
-                </div>
             </div>
-            <div id="backgroundImage">
-                <img class="mainimage" src="assets/bkg_1 1.png">
-                <h1 class="centerheader">OUR MISSION</h1>
-                <h1 class="underhead"> TAKE YOU TO THE TOP</h1>
-                <img class="elevatorButton" src="assets\elevator button.png" alt="button" >
+            <h1 class="centerheader">OUR MISSION</h1>
+            <h1 class="underhead"> TAKE YOU TO THE TOP</h1>
+            <img class="elevatorButton" src="assets\elevator button.png" alt="button" >
             </div>
         </div>  
         <!-- INTO -->
@@ -57,7 +56,7 @@
         </div>
         <!-- OurServices -->
         <!-- OurProducts -->
-        <div class="OurProducts">
+        <div id="OurProducts">
             <img class="OurProductsImage" src="assets\bkg_2 1 (1).png">
             <h1 class="series">2022 SECUREBOARDS SERIES</h1>
             <h1 class="perfection">THE PERFECTION IN SECURITY</h1>
@@ -65,7 +64,7 @@
         </div>
         <!-- OurProducts -->
         <!-- ABOUT US -->
-        <div class="AboutUs">
+        <div id="AboutUs">
             <img class="rectangle3" src="assets\Rectangle 3 (1).png">            
             <h1 class="fleet">NEED MORE FOR YOUT FLEET OF ELEVATORS</h1>
             <h1 class="heart">ALL OUR PRODUCTS ARE MADE WITH HEART AND SOUL</h1>
@@ -109,12 +108,40 @@
         </div>
         <!-- ABOUT US -->
         <!-- CONTACT US -->
-        <div class="ContactUs">
+        <div id="ContactUs">
             <h1 class="contactHead">STAY IN TOUCH WITH OUR CUSTOMER SERVICE</h1>
             <h1 class="contactUnder">FEEL FREE TO CONTACT US FOR ANY QUESTIONS</h1>
-            <img class="seperator2" src="assets\separator (2) (1).png">
-            <div class="form">
-                
+            <img class="seperator3" src="assets\separator (2) (1).png">
+            <div class="form1"> 
+                <div class="box">
+                    <label class="Label" for="name">NAME*</label>
+                    <img class="boarder" src="/assets/Rectangle 7.png">
+                    <input class="input" type="text" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="box">
+                    <label class="Label" for="email">EMAIL ADDRESS*</label>
+                    <img class="boarder" src="/assets/Rectangle 7.png">
+                    <input type="email" class="input"  id="email" placeholder="yourname@company.com">
+                </div>
+                <div class="box">
+                    <label  class="Label" for="phone">PHONE NUMBER</label>
+                    <img class="boarder2" src="/assets/Rectangle 7.png">
+                    <input type="tel" class="input2"  id="phone" placeholder="0 (000) 000 -0000">
+                </div>
+                <div class="box">
+                    <label  class="Label" for="lang">PREFERRED LANGUAGE</label>
+                    <img class="boarder2" src="/assets/Rectangle 7.png">
+                    <select class="input2" id="lang">
+                        <option class="input2"  value="select" id="lang">Select</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label class="Label" for="submit"></label>
+                    <img class="submitBox" src="/assets/Rectangle 6.png">
+                    <button class="submitLabel" type="submit">SUBMIT</button>
+                </div>
+            </div>
+
             </div>
         </div>
         <!-- CONTACT US -->
