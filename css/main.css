@@ -14,7 +14,7 @@ h1 {
   }
 .centerheader {
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -26,7 +26,7 @@ h1 {
 }
 .underhead {
     position: absolute;
-    top: 110%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Roboto';
@@ -38,7 +38,7 @@ h1 {
 }
 .elevatorButton {
     position: absolute;
-    top: 130%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -94,10 +94,11 @@ h1 {
 
 /* OurServices */
 .rectangle2{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 711px;
     padding: 0px;
+    top:-0.5vh
 }
 .weHead {
     position: absolute;
@@ -107,10 +108,10 @@ h1 {
     font-size: 25px;
     line-height: 93px;
     text-align: center;
-    vertical-align: middle;
     width: 458px;
     height: 29px;
-    left: 730px;
+    left: 38%;
+    top: 137%;
 }
 .weUnderhead{
     position: absolute;
@@ -123,29 +124,37 @@ h1 {
     vertical-align: middle;
     width: 667px;
     height: 53px;
-    left: 630px;
-    top: 1325px;
+    left: 32%;
+    top: 144%;
 }
 .seperator {
     position: absolute;
     width: 170px;
     height: 25.5px;
-    left: 855px;
-    top: 1450px;
+    left: 45%;
+    top: 155%;
+}
+.grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 280px;
+    top: -450px;
+    left: 9%;
 }
 .toolImage1{
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 380px;
-    top: 1542px;
+    grid-area: 1 / 1 / 2 / 2;
+    
 }
 .toolImage1text{
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 380px;
-    top: 1830px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -153,20 +162,18 @@ h1 {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
+    grid-area: 2 / 1 / 3 / 2;
 }
 .toolImage2{
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 820px;
-    top: 1542px;
+    grid-area: 1 / 2 / 2 / 3;
 }
 .toolImage2text{
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 820px;
-    top: 1830px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -174,20 +181,18 @@ h1 {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
+    grid-area: 2 / 2 / 3 / 3;
 }
 .toolImage3{
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 1260px;
-    top: 1542px;
+    grid-area: 1 / 3 / 2 / 4;
 }
 .toolImage3text{
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 1260px;
-    top: 1830px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -195,6 +200,7 @@ h1 {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
+    grid-area: 2 / 3 / 3 / 4;
 }
 /* OurServices */
 
@@ -203,20 +209,20 @@ h1 {
 
 
 
-/* OurProducts */
-.OurProductsImage{
+/* AboutUs */
+#OurAboutImage{
     position: absolute;
     width: 755px;
     height: 511px;
-    left: 1045px;
-    top: 2085px;  
+    left: 55%;
+    top: 225%;  
 }
 .series{
     position: absolute;
     width: 755px;
     height: 511px;
     left: 145px;
-    top: 2185px;
+    top: 235%; 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -229,7 +235,7 @@ h1 {
     width: 755px;
     height: 511px;
     left: 145px;
-    top: 2215px;
+    top: 238%; 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -242,7 +248,7 @@ h1 {
     width: 755px;
     height: 511px;
     left: 150px;
-    top: 2295px;
+    top: 247%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -250,26 +256,24 @@ h1 {
     line-height: 22px;
     color: #000000;
 }
-/* OurProducts */
-
-
-
-
-
 /* AboutUs */
-#AboutUs{
-    position: relative;
+
+
+
+
+
+/* OurProducts */
+#OurProducts{
+    position: absolute;
     width: 100%;
     height: 853px;
     left: 0px;
-    top: 1442px;
+    top:300%;
 }
 .rectangle3{
     position: absolute;
     width: 100%;
     height: 853px;
-    left: 0px;
-    top: 0px;
 }
 .fleet{
     position: absolute;
@@ -279,9 +283,8 @@ h1 {
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-    left: 460px;
-    right: 462px;
-    top: 68px;
+    left: 36%;
+    top: 9%;
 }
 .heart{
     position: absolute;
@@ -293,28 +296,28 @@ h1 {
     text-align: center;
     width: 659px;
     height: 106px;
-    top: 101px;
-    left: 32.5%;
+    top: 12%;
+    left: 32%;
 }
 .seperator2{
     position: absolute;
     width: 170px;
     height: 25.5px;
     bottom: 576px;
-    left: 45.5%; 
+    left: 45%; 
 }
 
 
 
-    /* AboutUs -safety */
+    /* OurProducts -safety */
     .catalog{
         position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        left: 41px;
-        top: 321px;
+        left: 3%;
+        top: 40%;
         margin: 0;
         padding: 0;
     }
@@ -400,16 +403,17 @@ h1 {
 }
 
 
-/* AboutUs */
+/* OurProducts */
 
-/* CONTACT US */    
+/* CONTACT US */
+ 
 #ContactUs{
     position: relative;
     width: 100%;
     height: 20%;
-    top: 2295px;  
+    top: 1995px;  
 }
-.contactHead{
+#contactHead{
     position: absolute;
     font-family: 'Roboto';
     font-style: normal;
@@ -567,14 +571,14 @@ h1 {
 }
 .sign{
     position: absolute;
-    left: 55%;
+    left: 65%;
     top: 15%;
     height: 70%;
 }
 .infoText{
     position: absolute;
     top: 25%;
-    left: 20%;
+    left: 15%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
