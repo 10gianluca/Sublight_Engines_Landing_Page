@@ -720,7 +720,7 @@ body{
     .mainimage {
         position: relative;
         max-width: 100%;
-        height: 100%;
+        height: 554px;
         left: 0px;
         top: 0px;
         padding: 0px;
@@ -794,10 +794,15 @@ body{
                       left: 50%;
                   }
                   .container {
-                      visibility: hidden;
+                      display: flex;
+                      flex-wrap: wrap;
                   }
                   .topnav {
-                      float: left;
+                      display: none;
+                      width:100%
+                  }
+                  .topnav.show{
+                    display: flex;
                   }
                   .topnav a {
                       float: right;
