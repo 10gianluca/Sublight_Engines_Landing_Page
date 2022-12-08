@@ -122,38 +122,38 @@
             <h1 id="contactHead">STAY IN TOUCH WITH OUR CUSTOMER SERVICE</h1>
             <h1 class="contactUnder">FEEL FREE TO CONTACT US FOR ANY QUESTIONS</h1>
             <img class="seperator3" src="assets\separator (2) (1).png">
-            <div class="form1"> 
+            <form name="myform" class="form1"> 
                 <div class="box">
                     <label class="Label" for="name">NAME*</label>
                     <img class="boarder" src="/assets/rectangle 7.png">
-                    <input class="input" type="text" id="name" placeholder="Enter your full name">
+                    <input class="input" name="name" type="text" id="name" placeholder="Enter your full name">
                 </div>
                 <div class="box">
                     <label class="Label" for="email">EMAIL ADDRESS*</label>
                     <img class="boarder" src="/assets/rectangle 7.png">
-                    <input type="email" class="input"  id="email" placeholder="yourname@company.com">
+                    <input type="email" name="email" class="input"  id="email" placeholder="yourname@company.com">
                 </div>
                 <div class="box">
                     <label  class="Label" for="phone">PHONE NUMBER</label>
                     <img class="boarder2" src="/assets/rectangle 7.png">
-                    <input type="tel" class="input2"  id="phone" placeholder="0 (000) 000 -0000">
+                    <input type="tel" name="phone" class="input2"  id="phone" placeholder="0 (000) 000 -0000">
                 </div>
                 <div class="box" id="language">
                     <label  class="Label" for="lang">PREFERRED LANGUAGE</label>
                     <img class="boarder2"  id="boarderLang"src="/assets/rectangle 7.png">
-                    <select class="input2" id="lang">
-                        <option class="input2"  value="select" id="lang">Select</option>
+                    <select name="select" class="input2" id="lang">
+                        <option class="input2"  value="" id="lang" hidden>Select</option>
                         <option class="input2"  value="english" id="lang">English</option>
                         <option class="input2"  value="french" id="lang">French</option>
 
                     </select>
                 </div>
                 <div class="box">
-                    <label class="Label" for="submit"></label>
+                    <label class="Label" for="button"></label>
                     <img class="submitBox" src="/assets/rectangle 6.png">
-                    <button class="submitLabel" type="submit">SUBMIT</button>
+                    <button class="submitLabel" type="button">SUBMIT</button>
                 </div>
-            </div>
+            </form>
 
             </div>
         </div>
