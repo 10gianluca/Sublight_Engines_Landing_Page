@@ -733,6 +733,9 @@ body{
 }
 @media only screen and (max-width: 600px) {
     /* backgroundImage */
+    .Into{
+        background-color: #383838;
+    }
     .mainimage {
         position: relative;
         width: 830px;
