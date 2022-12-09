@@ -38,6 +38,7 @@ $(document).ready(function(){
     $('.submitLabel').click(function(){
             if (namecheck() == true && emailcheck() == true && phonecheck() == true){
                 alert("Thank You For Contacting Us")
+                sendMail();
             }
         });
     $('.rectangle6').click(function(){
@@ -72,4 +73,27 @@ function phonecheck(){
     }
 }
 
-
+function sendMail() {
+    var params = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      phone: document.getElementById("phone").value,
+        lang: document.getElementById("lang").value,
+    };
+  
+    const serviceID = "service_zzq4ukj";
+    const templateID = "template_pizcl7h";
+  
+      emailjs.send(serviceID, templateID, params)
+      .then(res=>{
+          document.getElementById("name").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("phone").value = "";
+        document.getElementById("lang").value = "";
+          console.log(res);
+          alert("Your message sent successfully!!")
+  
+      })
+      .catch(err=>console.log(err));
+  
+  }
